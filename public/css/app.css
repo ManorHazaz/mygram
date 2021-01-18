@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.auth-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fafafa;
+    height: 38rem;
+    overflow: hidden;
+}
+
+.container
+{
+    background-color: #fafafa;
+    min-height: 34.7rem;
+    padding-top: 3.2rem;
+}
+
+.company-name
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.images
+{
+    height: 35rem;
+    justify-self: end;
+    position: relative;
+}
+
+.screenshot
+{
+    position: absolute;
+    top: 96px;
+    left: 147px;
+    width: 54.5%;
+}
+
+.contant
+{
+    height: 35rem;
+}
+
+.form ,.switch-span
+{
+    background-color: #ffffff;
+    width: 55%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    border: #333333 solid 1px;
+    text-align: center;
+}
+
+.form
+{
+    height: 26rem;
+}
+
+.signup-form
+{
+    height: 27rem;
+}
+
+.switch-span
+{
+    display: block;
+    height: 4rem;
+    margin-top: 3rem;
+    line-height: 4rem;
+}
+
+.link-clean
+{
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: #0095f6;
+    font-weight: 600;
+}
+
+
+.text-input
+{
+    font-size: 12px;
+    background-color: #fafafa;
+    width: 16rem;
+    height: 2.2rem;
+    border: #333333 solid 1px;
+    border-radius: 0.2rem;
+    margin: 0.3rem;
+    padding-left:  0.5rem;
+}
+
+.remember-span
+{
+    display: block;
+    margin: 0.4rem;
+}
+
+.btn
+{
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.line
+{
+    display: block;
+    position: relative;
+    margin: 1rem;
+}
+
+.line::before ,.line::after
+{
+    content: ' ';
+    position: absolute;
+    top: 8px;
+    width: 7rem;
+    height: 1px;
+    background-color: #eeeeee;
+}
+
+.line::before
+{
+    left: 20px;
+}
+
+.line::after
+{
+    right: 20px;
+}
+
+.fab
+{
+    color: #385185;
+}
+
+.facebook
+{
+    color: #385185;
+}
+
+.forgot-password
+{
+    display: block;
+    margin: 1.5rem auto;
+    color: #333333;
+    font-size: 10px;
+}
+
+.signup-btn
+{
+    margin: 0.3rem;
+}
+
+.terms
+{
+    font-size: 10px;
+}
+
+.signup .signup-span
+{
+    display: block;
+    height: 4rem;
+    margin-top: 1rem;
+    line-height: 4rem;
+}
+
+
+.top-nav
+{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+    border-bottom: 1px solid #706b6b;
+    position: fixed;
+    width: 100%;
+}
+
+.logo
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    grid-column-start: 2;
+}
+
+.search-input
+{
+    width: 14rem;
+    border-radius: 0.2rem;
+    height: 2rem;
+    justify-self: center;
+    align-self: center;
+    background-color: #fafafa;
+    border: 1px solid #706b6b;
+    text-align: center;
+}
+
+.top-nav ul
+{
+    justify-self: end;
+}
+
+.top-nav ul li
+{
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+.btn-clean
+{
+    border: none;
+    background: none;
+}
+
+.btn-clean:focus
+{
+    outline: none;
+}
+
+.link-icon
+{
+    color: black;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.edit-profile 
+{
+    width: 80%;
+    margin: auto;
+}
+
+.edit-profile .form
+{
+    margin: 2rem 0;
+    width: 100%;
+    height: 30rem;
+}
+
+.edit-profile .edit-div
+{
+    display: grid;
+    grid-template-columns: 3% 20% 74% 3%;
+    row-gap: 2rem;
+}
+
+.edit-profile span
+{
+    grid-column-start: 2;
+    justify-self: center;
+    align-self: center;
+}
+
+.edit-profile .text-input
+{
+    width: 80%;
+}
+
+
+.user-info
+{
+    display: grid;
+    grid-template-columns: 15% 20% 30% 20% 15%;
+    padding: 1rem;
+}
+
+.form-follow , .edit-link
+{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.btn-Follow
+{
+
+}
+
+.edit-link
+{
+    text-decoration: none;
+}
+.profilepicture
+{
+    grid-column-start: 2;
+    border-bottom: 1px solid #706b6b;
+    width: 100%;
+    height: 100%;
+}
+
+.profilepicture img
+{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    margin: 8.6% auto;
+    display: block;
+}
+
+.data
+{
+    border-bottom: 1px solid #706b6b;
+    width: 100%;
+    padding-left: 3rem;
+    height: 100%;
+}
+
+.data .username
+{
+    display: inline-block;
+    font-weight: 400;
+}
+
+.data .settings
+{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.data table tr td
+{
+    width: 7rem;
+}
+
+.data .title
+{
+    font-weight: bold;
+}
+
+.placeholder
+{
+    border-bottom: 1px solid #706b6b;
+    height: 100%;
+}
+
+.small-images-posts
+{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: auto;
+    grid-gap: 1rem;
+}
+
+.postImage img
+{
+    width: 100%;
+}
