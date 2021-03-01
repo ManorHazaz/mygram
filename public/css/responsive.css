@@ -19,7 +19,8 @@
 
     .auth-container
     {
-        display: block;
+        display: flex;
+        align-items: center;
         padding-top: 0;
         overflow: hidden;
         min-height: 99vh;
